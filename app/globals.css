@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  box-sizing: border-box;
+  font-family: vazir;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  scrollbar-width: thin;
+  background-color: #eaeff3 !important;
+  scrollbar-color: #ffffff00 #ffffff00;
+  overflow-x: hidden !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style-type: none !important;
+}
+
+input:focus {
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+}
